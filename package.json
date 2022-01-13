@@ -1,0 +1,25 @@
+{
+  "name": "qqmusic-back-end",
+  "version": "1.0.0",
+  "description": "qq music api, just for study",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js & npm run docs",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "QQ音乐",
+    "音乐",
+    "QQ音乐koa2"
+  ],
+  "author": "lxk",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-cors": "0.0.16",
+    "koa-router": "^10.1.1",
+    "nodemon": "^2.0.15"
+  }
+}
